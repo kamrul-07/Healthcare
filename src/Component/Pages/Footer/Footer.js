@@ -2,8 +2,11 @@ import React from 'react';
 
 const Footer = () => {
     return (
+        
         <div className="md:flex sm:block bg-blue-200 p-20">
-            <div className="flex-1 ml-16">
+            
+            <div className="flex-1  md:ml-16">
+        
             <div className="flex">
             <i className="fab fa-instagram m-2 rounded-full h-10 w-10 flex items-center justify-center bg-gray-100 p-2 text-2xl" ></i> 
             <i className="fab fa-twitter m-2  rounded bg-gray-100 p-2 text-2xl rounded-full h-10 w-10 flex items-center justify-center"></i>
@@ -11,6 +14,7 @@ const Footer = () => {
             <i className="fab fa-linkedin-in m-2 rounded-full h-10 w-10 flex items-center justify-center  bg-gray-100 p-2 text-2xl"></i>
 
             </div>
+            
             </div>
             <div>
             <div className="flex-1">

@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className="sm:block md:mx-auto">
+        <div className="sm:block md:mx-auto ">
           <div className="bg-gray-200 p-3 sm:text-center ">
           <div className="flex md:container md:mx-auto bg-gray-200 ">
             <div>
               <p className="text-2xl text-gray-400">Pathwell-we are always here!</p>
             </div>
             <div className="flex-1  text-2xl font-sans ">
-            <p className="inline-block mx-3"><i class="fas fa-mobile-alt text-gray-400"></i> <span className="text-gray-400">+18065 555 22 33</span></p>
-            <p className="inline-block"><i class="far fa-clock text-gray-400"></i> <span className="text-gray-400">Mn-Sn: 8am to 9pm</span></p>
+            <p className="inline-block mx-3"><i className="fas fa-mobile-alt text-gray-400"></i> <span className="text-gray-400">+18065 555 22 33</span></p>
+            <p className="inline-block"><i className="far fa-clock text-gray-400"></i> <span className="text-gray-400">Mn-Sn: 8am to 9pm</span></p>
             </div>
           </div>
           </div>
@@ -37,11 +37,11 @@ const Header = () => {
               {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
               <Link to ={"/home"} className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</Link>
 
-              <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About us</a>
+              <Link to={"/aboutus"} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About us</Link>
 
-              <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Living Option</a>
+              <Link to ={"/contact"} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Us</Link>
 
-              <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Feature</a>
+              <Link to ={"/login"} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Log In</Link>
 
               
             </div>
@@ -109,13 +109,13 @@ const Header = () => {
     <div className="md:hidden" id="mobile-menu">
       <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
         {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-        <a href="#" className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
+        <Link to ={"/home"} className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</Link>
 
-        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"> About us</a>
+<Link to={"/aboutus"} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About us</Link>
 
-        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Living Option</a>
+<Link to ={"/contact"} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Us</Link>
 
-        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Feature</a>
+<Link to ={"/login"} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Log In</Link>
 
        
       </div>
