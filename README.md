@@ -12,4 +12,4 @@ You can visit the site on [the link](https://mystifying-beaver-f1f9fe.netlify.ap
 * And also have done responsive for mobile and laptop.
 * Here i use fantastic some information and icons.
 * It is making by react,react-router-dom,firebase authentication.
-* People have to access in website by gmail and github email id.
+* People have to access in website by gmail and  email password id.

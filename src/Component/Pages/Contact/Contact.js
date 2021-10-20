@@ -30,19 +30,45 @@ const Contact = () => {
                 
 
                 </div>
+            </div>
 
-
-                <div className="container bg-white p-10  mt-3">
+            <div>
+            <div className=" bg-white   mt-3  min-h-screen bg-gray-100 flex flex-col justify-center py-12 px-16 lg:px-10 ">
                     <h1 className="text-red-900 text-4xl">Send Message</h1>
                     <p className="write text-3xl">Drop a Line</p>
-                    <div className="block">
-                    <input className="bg-gray-200 rounded-full py-3 px-6 mt-2 italic" type="text" placeholder="Enter your name" />
                    
-                   <input className="bg-gray-200 rounded-full py-3 px-6 mt-2 italic" type="text" placeholder="Enter your email " />
-                   
-                   <input className="bg-gray-200 p-20 mt-2 h-5 italic font-semibold" type="text" placeholder="Enter your message" />
-                    </div>
-                    <button className="rounded-full py-3 px-6 mt-4 bg-yellow-500 font-semibold text-red-900">Send <i className="fas fa-paper-plane"></i></button>
+                    
+
+
+             <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md ">
+              <div className="bg-white py-8 px-6 shadow rounded-lg sm:px-10">
+            <form className="mb-0 space-y-6" action="#" method="POST">
+         
+          <div>
+            <label for="name" className="block text-sm font-medium text-gray-700">Full Name</label>
+            <div className="mt-1">
+            <input id="name" name="name" type="name" autocomplete="name"     required className="bg-gray-200 rounded-full py-2 px-3 " />
+          </div>
+        </div>
+
+        <div>
+          <label for="email" className="block text-sm font-medium text-gray-700">Email Address</label>
+          <div className="mt-1">
+            <input   id="email" name="email" type="email" autocomplete="current-password" required className="bg-gray-200 rounded-full py-2 px-3" />
+          </div>
+          <label for="comment" className="block text-sm font-medium text-gray-700">Write down your commment</label>
+         
+          <textarea  name="comment" type="comment" className="bg-gray-200 rounded py-6 px-4"></textarea><br />
+          <button className="rounded-full py-3 px-6 mt-4 bg-yellow-500 font-semibold text-red-900">Send <i className="fas fa-paper-plane"></i></button>
+        </div>
+
+        
+        
+
+        
+      </form>
+    </div>
+  </div>
                    
                     
                 </div>
