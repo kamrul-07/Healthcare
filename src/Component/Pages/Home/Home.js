@@ -80,7 +80,7 @@ const Home = () => {
   container mx-auto mb-5">
 
     <div className="ml-2 ">
-      <img src="https://thumbs.dreamstime.com/b/old-man-visit-doctor-patient-care-sick-men-67273865.jpg" alt="" />
+      <img src="https://media.istockphoto.com/photos/m-glad-to-see-you-doing-well-picture-id1152844782?k=20&m=1152844782&s=612x612&w=0&h=myHM6mGGAdUZU_EJEMU0dlLJ-ENF0BCJ26WD3OT0uQ4=" alt="" />
     </div>
 
 

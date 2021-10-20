@@ -44,6 +44,41 @@ const Teams = () => {
           <h1 className="write">Ceo</h1>
         
       </div>
+      <div className="group relative">
+        <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+          <img src="https://img.lovepik.com/photo/50138/3065.jpg_wh300.jpg" alt="Front of men&#039;s Basic Tee in black." className="w-full h-full object-center object-cover lg:w-full lg:h-full"/>
+          
+        </div>
+        <h1 className="text-red-900">Sandra Bells</h1>
+          <h1 className="write">Caregiver</h1>
+      </div>
+      <div className="group relative">
+        <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+          <img src="https://wallpapercave.com/wp/wp2655110.jpg" alt="Front of men&#039;s Basic Tee in black." className="w-full h-full object-center object-cover lg:w-full lg:h-full"/>
+          
+        </div>
+        <h1 className="text-red-900">Rose Mason</h1>
+          <h1 className="write">Physician</h1>
+        
+      </div>
+      <div className="group relative">
+        <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+          <img src="https://media.istockphoto.com/photos/physician-picture-id497142181?k=20&m=497142181&s=612x612&w=0&h=tanEtUfMGVEVG4jPCY7cBGIwJ1PNO25AFkBpAxSBBn0=" alt="Front of men&#039;s Basic Tee in black." className="w-full h-full object-center object-cover lg:w-full lg:h-full"/>
+         
+        </div>
+        <h1 className="text-red-900">Lilian Terry</h1>
+          <h1 className="write">Manager</h1>
+        
+      </div>
+      <div className="group relative">
+        <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+          <img src="https://st4.depositphotos.com/12985790/21800/i/600/depositphotos_218007348-stock-photo-happy-male-doctor-stethoscope-neck.jpg" alt="Front of men&#039;s Basic Tee in black." className="w-full h-full object-center object-cover lg:w-full lg:h-full"/>
+         
+        </div>
+        <h1 className="text-red-900">Esme Walsh</h1>
+          <h1 className="write">Ceo</h1>
+        
+      </div>
 
      
     </div>

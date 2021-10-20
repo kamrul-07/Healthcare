@@ -9,12 +9,12 @@ const Footer = () => {
          
                
            <div >
-              
+            
            <div className="flex">
-            <i className="fab fa-instagram m-2 rounded-full h-10 w-10 flex items-center justify-center bg-gray-100 p-2 text-2xl" ></i> 
-            <i className="fab fa-twitter m-2  rounded bg-gray-100 p-2 text-2xl rounded-full h-10 w-10 flex items-center justify-center"></i>
-            <i className="fab fa-facebook-f m-2 rounded-full h-10 w-10 flex items-center justify-center  bg-gray-100 p-2 text-2xl"></i>
-            <i className="fab fa-linkedin-in m-2 rounded-full h-10 w-10 flex items-center justify-center  bg-gray-100 p-2 text-2xl"></i>
+            <i className="fab fa-instagram m-2 rounded-full h-10 w-10 flex items-center justify-center bg-gray-100 p-2 text-2xl transform hover:-translate-y-1" ></i> 
+            <i className="fab fa-twitter m-2  rounded bg-gray-100 p-2 text-2xl rounded-full h-10 w-10 flex items-center justify-center transform hover:-translate-y-1"></i>
+            <i className="fab fa-facebook-f m-2 rounded-full h-10 w-10 flex items-center justify-center  bg-gray-100 p-2 text-2xl transform hover:-translate-y-1"></i>
+            <i className="fab fa-linkedin-in m-2 rounded-full h-10 w-10 flex items-center justify-center  bg-gray-100 p-2 text-2xl transform hover:-translate-y-1"></i>
 
             </div>
            </div>
